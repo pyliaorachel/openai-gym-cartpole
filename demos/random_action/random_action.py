@@ -8,10 +8,10 @@ import gym
 if __name__ == '__main__':
     env = gym.make('CartPole-v0')
 
-    for i_episode in range(20):
+    for i_episode in range(200):
         observation = env.reset() # reset environment to initial state for each episode
         rewards = 0 # accumulate rewards for each episode
-        for t in range(100):
+        for t in range(250):
             env.render()
 
             action = env.action_space.sample() # choose a random action
