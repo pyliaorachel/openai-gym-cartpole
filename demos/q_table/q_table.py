@@ -47,7 +47,7 @@ if __name__ == '__main__':
     q_table = np.zeros(n_buckets + (n_actions,))
 
     # Learning related constants; factors determined by trial-and-error
-    get_epsilon = lambda i: max(0.01, min(1, 1.0 - math.log10((i+1)/25)))  # epsilon-greedy, factor to explore randomly; discounted over time
+    get_epsilon = lambda i: max(0.01, min(1, 1.0 - math.log10((i+1)/25))) # epsilon-greedy, factor to explore randomly; discounted over time
     get_lr = lambda i: max(0.01, min(0.5, 1.0 - math.log10((i+1)/25))) # learning rate; discounted over time
     gamma = 0.99 # reward discount factor
 
