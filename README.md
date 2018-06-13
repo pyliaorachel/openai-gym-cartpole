@@ -2,6 +2,8 @@
  
 Demonstration of various solutions solving the cart pole problem in OpenAI gym.
 
+[Reinforcement Learning 健身房：OpenAI Gym](https://pyliaorachel.github.io/blog/tech/python/2018/06/01/openai-gym-for-reinforcement-learning.html)
+
 ## Usage
 
 ```bash
